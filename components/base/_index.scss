@@ -1,0 +1,9 @@
+// @forward to use to other scss file
+@forward "color";
+@forward "untility.scss";
+@forward "common.scss";
+
+// @import for compiling and make sure everything ok
+@import "color";
+@import "untility.scss";
+@import "common.scss";

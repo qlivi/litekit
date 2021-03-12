@@ -1,0 +1,150 @@
+/*
+*compatibility for css and make sure variable included*
+*/
+:root {
+	/** primary **/
+	--ltk-primary: #3880ff;
+	--ltk-primary-rgb: 56, 128, 255;
+	--ltk-primary-contrast: #ffffff;
+	--ltk-primary-contrast-rgb: 255, 255, 255;
+	--ltk-primary-shade: #3171e0;
+	--ltk-primary-tint: #4c8dff;
+
+	/** secondary **/
+	--ltk-secondary: #3dc2ff;
+	--ltk-secondary-rgb: 61, 194, 255;
+	--ltk-secondary-contrast: #ffffff;
+	--ltk-secondary-contrast-rgb: 255, 255, 255;
+	--ltk-secondary-shade: #36abe0;
+	--ltk-secondary-tint: #50c8ff;
+
+	/** tertiary **/
+	--ltk-tertiary: #5260ff;
+	--ltk-tertiary-rgb: 82, 96, 255;
+	--ltk-tertiary-contrast: #ffffff;
+	--ltk-tertiary-contrast-rgb: 255, 255, 255;
+	--ltk-tertiary-shade: #4854e0;
+	--ltk-tertiary-tint: #6370ff;
+
+	/** success **/
+	--ltk-success: #2dd36f;
+	--ltk-success-rgb: 45, 211, 111;
+	--ltk-success-contrast: #ffffff;
+	--ltk-success-contrast-rgb: 255, 255, 255;
+	--ltk-success-shade: #28ba62;
+	--ltk-success-tint: #42d77d;
+
+	/** warning **/
+	--ltk-warning: #ffc409;
+	--ltk-warning-rgb: 255, 196, 9;
+	--ltk-warning-contrast: #000000;
+	--ltk-warning-contrast-rgb: 0, 0, 0;
+	--ltk-warning-shade: #e0ac08;
+	--ltk-warning-tint: #ffca22;
+
+	/** danger **/
+	--ltk-danger: #eb445a;
+	--ltk-danger-rgb: 235, 68, 90;
+	--ltk-danger-contrast: #ffffff;
+	--ltk-danger-contrast-rgb: 255, 255, 255;
+	--ltk-danger-shade: #cf3c4f;
+	--ltk-danger-tint: #ed576b;
+
+	/** dark **/
+	--ltk-dark: #222428;
+	--ltk-dark-rgb: 34, 36, 40;
+	--ltk-dark-contrast: #ffffff;
+	--ltk-dark-contrast-rgb: 255, 255, 255;
+	--ltk-dark-shade: #1e2023;
+	--ltk-dark-tint: #383a3e;
+
+	/** medium **/
+	--ltk-medium: #92949c;
+	--ltk-medium-rgb: 146, 148, 156;
+	--ltk-medium-contrast: #ffffff;
+	--ltk-medium-contrast-rgb: 255, 255, 255;
+	--ltk-medium-shade: #808289;
+	--ltk-medium-tint: #9d9fa6;
+
+	/** light **/
+	--ltk-light: #f4f5f8;
+	--ltk-light-rgb: 244, 245, 248;
+	--ltk-light-contrast: #000000;
+	--ltk-light-contrast-rgb: 0, 0, 0;
+	--ltk-light-shade: #d7d8da;
+	--ltk-light-tint: #f5f6f9;
+}
+/*
+*compatibility for scss and make sure is easy to access*
+*/
+/** primary **/
+$ltk-primary: #3880ff;
+$ltk-primary-rgb: 56, 128, 255;
+$ltk-primary-contrast: #ffffff;
+$ltk-primary-contrast-rgb: 255, 255, 255;
+$ltk-primary-shade: #3171e0;
+$ltk-primary-tint: #4c8dff;
+
+/** secondary **/
+$ltk-secondary: #3dc2ff;
+$ltk-secondary-rgb: 61, 194, 255;
+$ltk-secondary-contrast: #ffffff;
+$ltk-secondary-contrast-rgb: 255, 255, 255;
+$ltk-secondary-shade: #36abe0;
+$ltk-secondary-tint: #50c8ff;
+
+/** tertiary **/
+$ltk-tertiary: #5260ff;
+$ltk-tertiary-rgb: 82, 96, 255;
+$ltk-tertiary-contrast: #ffffff;
+$ltk-tertiary-contrast-rgb: 255, 255, 255;
+$ltk-tertiary-shade: #4854e0;
+$ltk-tertiary-tint: #6370ff;
+
+/** success **/
+$ltk-success: #2dd36f;
+$ltk-success-rgb: 45, 211, 111;
+$ltk-success-contrast: #ffffff;
+$ltk-success-contrast-rgb: 255, 255, 255;
+$ltk-success-shade: #28ba62;
+$ltk-success-tint: #42d77d;
+
+/** warning **/
+$ltk-warning: #ffc409;
+$ltk-warning-rgb: 255, 196, 9;
+$ltk-warning-contrast: #000000;
+$ltk-warning-contrast-rgb: 0, 0, 0;
+$ltk-warning-shade: #e0ac08;
+$ltk-warning-tint: #ffca22;
+
+/** danger **/
+$ltk-danger: #eb445a;
+$ltk-danger-rgb: 235, 68, 90;
+$ltk-danger-contrast: #ffffff;
+$ltk-danger-contrast-rgb: 255, 255, 255;
+$ltk-danger-shade: #cf3c4f;
+$ltk-danger-tint: #ed576b;
+
+/** dark **/
+$ltk-dark: #222428;
+$ltk-dark-rgb: 34, 36, 40;
+$ltk-dark-contrast: #ffffff;
+$ltk-dark-contrast-rgb: 255, 255, 255;
+$ltk-dark-shade: #1e2023;
+$ltk-dark-tint: #383a3e;
+
+/** medium **/
+$ltk-medium: #92949c;
+$ltk-medium-rgb: 146, 148, 156;
+$ltk-medium-contrast: #ffffff;
+$ltk-medium-contrast-rgb: 255, 255, 255;
+$ltk-medium-shade: #808289;
+$ltk-medium-tint: #9d9fa6;
+
+/** light **/
+$ltk-light: #f4f5f8;
+$ltk-light-rgb: 244, 245, 248;
+$ltk-light-contrast: #000000;
+$ltk-light-contrast-rgb: 0, 0, 0;
+$ltk-light-shade: #d7d8da;
+$ltk-light-tint: #f5f6f9;

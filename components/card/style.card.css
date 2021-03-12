@@ -1,0 +1,51 @@
+/*
+*scss and css reseting tools must imported or included in the top of the file*
+*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.test {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+}
+
+.card {
+  border: 2px solid black;
+  border-color: #e9edf3;
+  margin: 3px;
+  background-color: #fff;
+  border-radius: 25px;
+  display: flex;
+  width: 280px;
+  overflow: hidden;
+  flex-direction: column;
+}
+.card img {
+  width: fit;
+  height: 6rem;
+}
+.card .title {
+  margin: 5px;
+  font-weight: 350;
+  font-size: 20px;
+  font-family: "Roboto Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+.card .subtitle {
+  font-family: "Inter UI", Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 330;
+  margin-left: 6px;
+}
+.card .desc {
+  font-family: Inter, "Inter UI", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  margin: 5px;
+}
+
+/*# sourceMappingURL=style.card.css.map */

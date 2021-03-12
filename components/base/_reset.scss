@@ -1,0 +1,10 @@
+/*
+*scss and css reseting tools must imported or included in the top of the file*
+*/
+
+// reset box sizinz margin padding
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
